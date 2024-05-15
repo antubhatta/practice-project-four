@@ -2,3 +2,44 @@
     margin: 0px;
     padding: 0px;
 }
+.banner{
+    background: rgba(229, 84, 115, 0.1);
+    margin-bottom: 23px;
+}
+.banner-container{
+    width: 1140px;
+    margin: 0 auto;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.flower-banner{
+   
+    width: 400px;
+    margin-top: 40px;
+}
+.banner-title{
+    color: rgb(39, 39, 39);
+font-size: 56px;
+font-weight: 800;
+width: 450px;
+margin-bottom: 28px;
+}
+.banner-desc{
+    width: 440px;
+    margin-bottom: 28px;
+    color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+}
+.btn-primary{
+    border-radius: 8px;
+background: rgb(229, 84, 115);
+padding: 12px 18px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+border: 0;
+}
