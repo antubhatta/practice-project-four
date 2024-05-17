@@ -188,8 +188,52 @@ text-align: center;
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-bottom: 110px;
 }
 .instagram-container{
     max-width: 1140px;
     margin: 0 auto;
+
+}
+/* coupon section */
+.coupon-container{
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    /* max-width: 1900px;
+    margin: 0 auto; */
+    background-position: center;
+    margin-bottom: 110px;
+}
+.coupon-title{
+    color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+padding-top: 110px;
+margin-bottom: 24px;
+}
+.coupon-desc{
+    color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 48px;
+text-align: center;
+}
+.input-text{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 600px;
+padding: 18px 0px 18px 18px;
+border: 0;
+margin-right: 24px;
+margin-bottom:110px;
+
+}
+.s-form{
+    display: flex;
+    justify-content: center;
+}
+.btn-submit{
+    padding: 18px 30px 18px 30px;
+    margin-bottom:110px;
 }
