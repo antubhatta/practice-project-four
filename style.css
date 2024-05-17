@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom:  70px;
 
 }
 
@@ -42,4 +43,139 @@ padding: 12px 18px;
 color: rgb(255, 255, 255);
 font-size: 16px;
 border: 0;
+}
+/* featured secttion */
+.featured-container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.featured-title{
+    color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+margin-bottom: 24px;
+
+}
+.featured-desc{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+width: 500px;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 48px;
+}
+.featured-img-one{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 310px;
+height: 428px;
+padding:110px 78px 0px 76px;
+}
+.featured-img-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    /* text-align: center; */
+    
+   
+}
+.featured-img-two{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+width: 370px;
+height: 370px;
+padding: 117px 47px 51px 47px;
+}
+.featured-img-three{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 310px;
+height: 428px;
+padding:110px 78px 0px 76px;
+}
+.featured-img-flower{
+    width: 464px;
+height: 538px;
+margin-bottom: 32px;
+}
+.featured-img-desc{
+    color: rgb(39, 39, 39);
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+text-decoration-line: underline;
+margin-bottom: 110px;
+}
+/* why choose us */
+.why-choose-us{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+}
+.choose-us-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.us-items-img{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.us-items-desc{
+    color: rgba(39, 39, 39, 0.8);
+font-size: 18px;
+font-weight: 600;
+padding-bottom: 70px;
+}
+/* discount related section */
+.discount{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 110px;
+}
+.discount-container{
+    /* max-width: 1140px;
+    margin: 0 auto; */
+}
+.dis-title{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.dis-off{
+    counter-reset: #E55473;
+    text-align: center;
+}
+.dis-desc{
+    color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+width: 450px;
+margin: 0 auto;
+text-align: center;
+}
+.discount-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.dis-btn{
+    margin-top: 32px;
+    text-align: center;
+}
+.dis-button{
+    display: flex;
+    justify-content: center;
+}
+.dis-image{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
