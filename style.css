@@ -237,3 +237,56 @@ margin-bottom:110px;
     padding: 18px 30px 18px 30px;
     margin-bottom:110px;
 }
+footer{
+    background-color: #111010;
+}
+.footer-title{
+    font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+color: #E55473;
+text-align: center;
+margin-bottom: 24px;
+padding-top: 110px;
+}
+.shop{
+    color: #FFFFFF;
+}
+.footer-desc{
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.9);
+
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.4);
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 110px;
+text-align: center;
+}
+.about-title{
+    font-size: 30px;
+    color: #111010;
+    text-align: left;
+
+}
+.about-desc{
+    margin-bottom: 32px;
+    color: #111010;
+    width: 550px;
+    font-size: 20px;
+}
+.abt-img{
+width: 500px;
+border: 15px solid black;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 110px;
+}
+.content{
+    padding-top: 90px;
+}
+
